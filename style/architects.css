@@ -446,3 +446,21 @@
 /* opinion section ends here */
 
 /* sponcors company section start here */
+
+.Our-Sponspors {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+   margin-bottom: 130px;
+    filter: grayscale(100%);
+}
+
+.Our-Sponspors-border{
+    border: 1px dashed rgb(163, 160, 160);
+}
+
+/* Sponcors section ends here */
+
