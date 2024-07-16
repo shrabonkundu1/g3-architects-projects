@@ -271,8 +271,8 @@
     text-align: center;
     align-items: center;
     margin-left: -55px;
-    margin-top: -70px;
-   
+    margin-top: -60px;
+    cursor: pointer;
 }
 
 .card-btn .Experience {
@@ -464,3 +464,24 @@
 
 /* Sponcors section ends here */
 
+/* fotter section start */
+
+.footer {
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 8px;
+    background: rgb(255, 244, 231);
+    padding: 30px ;
+    text-align: center;
+}
+
+.footer h6 {
+    color: rgb(66, 66, 66);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+/* media query start here */
