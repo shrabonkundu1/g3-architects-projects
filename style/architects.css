@@ -197,9 +197,9 @@
     width: 85%;
     margin: 0 auto;
     height: 1059px;
-    border: 2px solid red;
     display: flex;
-    gap: 78px;
+    gap: 100px;
+    margin-bottom: 130px;
 }
 
 .features-container {
@@ -210,11 +210,11 @@
 .features-title h2 {
     color: rgb(19, 19, 19);
     font-family: "Work Sans", sans-serif;
-    font-size: 45px;
+    font-size: 2.8rem;
     font-weight: 700;
     line-height: 53px;
     margin-bottom: 24px;
-    padding-left: 26px;
+    padding-left: 20px;
 }
 .features-title p {
     color: rgb(114, 114, 114);
@@ -226,14 +226,12 @@
 }
 
 
-.architectors-image {
-    width: 60%;
-}
 
 
 .architectors-image img {
-    width: 650px;
-    height: 980px;
+    width: 630px;
+    height: 960px;
+   
 }
 
 .features-card {
@@ -260,30 +258,191 @@
     line-height: 26px;
 }
 
-.architectors-image button {
-    width: 180px;
-    height: 64px;
+.card-btn {
     color: rgb(255, 255, 255);
     font-family: "Work Sans", sans-serif;
     font-size: 1.2rem;
     font-weight: 600;
     border-radius: 0.5rem;
     background: rgb(255, 144, 14);
-    padding: 45px;
+    padding: 30px 25px;
     border: none;
     outline: none;
+    text-align: center;
+    align-items: center;
+    margin-left: -55px;
+    margin-top: -70px;
+   
 }
 
-.architectors-image button .Experience {
+.card-btn .Experience {
     color: rgb(255, 255, 255);
     font-family: "Work Sans", sans-serif;
-    font-size: 65px;
+    font-size: 2.5rem;
     font-weight: 700;
 }
 
-.architectors-image button  p{
+.card-btn .decation {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.card-btn p{
     color: rgb(255, 255, 255);
     font-family: "Work Sans", sans-serif;
     font-size: 25px;
     font-weight: 500;
 }
+
+/* card section end here */
+
+/* facts section start here */
+
+.facts {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.facts h3 {
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.facts p {
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 100px;
+}
+
+/* facts section end here */
+
+.awards {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 80px;
+    margin-bottom: 180px;
+}
+
+
+.awards-cards-1 {
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    padding: 45px 36px 55px 35px;
+}
+.awards-cards-2 {
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    padding: 45px 36px 55px 35px;
+}
+.awards-cards-3 {
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    padding: 45px 36px 55px 35px;
+}
+.awards-cards-4 {
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 0.5rem;
+    padding: 45px 36px 55px 35px;
+}
+
+.awards-cards-1 h4{
+    color: rgb(66, 66, 66);
+    font-family: Work Sans;
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.awards-cards-1 p{
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.awards-cards-2 h4{
+    color: rgb(66, 66, 66);
+    font-family: Work Sans;
+    font-size: 2.8rem;
+    font-weight: 600;
+
+}
+
+.awards-cards-2 p{
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 1..4rem;
+    font-weight: 600;
+}
+.awards-cards-3 h4{
+    color: rgb(66, 66, 66);
+    font-family: Work Sans;
+    font-size: 2.8rem;
+    font-weight: 600;
+
+}
+
+.awards-cards-3 p{
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.awards-cards-4 h4{
+    color: rgb(66, 66, 66);
+    font-family: Work Sans;
+    font-size: 2.8rem;
+    font-weight: 600;
+
+}
+
+.awards-cards-4 p{
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+/* Awards section end here */
+
+/* opinion section */
+
+.opinion-section {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.opinion-section h3 {
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.opinion-section p{
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 48px;
+}
+
+/* opinion section ends here */
+
+/* sponcors company section start here */
