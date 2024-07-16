@@ -325,7 +325,8 @@
 .awards {
     width: 80%;
     margin: 0 auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -369,7 +370,7 @@
 .awards-cards-1 p{
     color: rgb(114, 114, 114);
     font-family: Work Sans;
-    font-size: 1.4rem;
+    font-size: 1.25rem;
     font-weight: 600;
 }
 .awards-cards-2 h4{
@@ -383,7 +384,7 @@
 .awards-cards-2 p{
     color: rgb(114, 114, 114);
     font-family: Work Sans;
-    font-size: 1..4rem;
+    font-size: 1.25rem;
     font-weight: 600;
 }
 .awards-cards-3 h4{
@@ -397,7 +398,7 @@
 .awards-cards-3 p{
     color: rgb(114, 114, 114);
     font-family: Work Sans;
-    font-size: 1.4rem;
+    font-size: 1.25rem;
     font-weight: 600;
 }
 .awards-cards-4 h4{
@@ -411,7 +412,7 @@
 .awards-cards-4 p{
     color: rgb(114, 114, 114);
     font-family: Work Sans;
-    font-size: 1.4rem;
+    font-size: 1.25rem;
     font-weight: 600;
 }
 
@@ -450,7 +451,8 @@
 .Our-Sponspors {
     width: 85%;
     margin: 0 auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     justify-content: center;
     align-items: center;
     gap: 110px;
@@ -485,3 +487,93 @@
 
 
 /* media query start here */
+
+@media screen and (max-width:576px) {
+    .navbar,
+    .navbar ul,
+    .team-section,
+    .features-section
+     {
+        flex-direction: column;
+    }
+    .navbar{
+        width: 100%;
+        margin-bottom: 70px;
+    }
+    .navbar a {
+        font-size: 2em;
+        font-weight: 500;
+        color: rgb(19, 19, 19);
+        padding: 20px;
+    }
+    .header{
+        height: 1150px;
+    }
+    .header-title {
+        width: 100%;
+    }
+    .image-container {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    .team-section {
+        width: 85%;
+        margin-bottom: 50px;
+        margin-top: 70px;
+    }
+    .team-content {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .team-content .Quick-list {
+        font-size: 2.5rem;
+    }
+    .team-content .our-team{
+        font-size: 2.4rem;
+    }
+    .features-section{
+        width: 90%;
+        height: 1900px;
+        gap: 50px;
+    }
+    .features-title h2 {
+        font-size: 2.4rem;
+        padding-left: 0;
+    }
+    .architectors-image img {
+        width: 100%;
+        height: 100%;
+    }
+    .card-btn{
+        margin-left: 70px;
+        margin-top: -60px;
+    }
+    .facts h3 {
+        margin-top: 150px;
+    }
+    .facts p {
+        margin-bottom: 65px;
+    }
+    .awards{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+        margin-bottom: 70px;
+    }
+    .opinion-section{
+        width: 90%;
+    }
+    .Our-Sponspors {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 7px;
+        margin-bottom: 30px;
+    }
+    .Our-Sponspors-border {
+        margin-bottom: 40px;
+    }
+    .footer h6 {
+        font-size: 1.3rem;
+        line-height: 1.5;
+    }
+
+}
